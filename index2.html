@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <h1>🛒 Mini E-Commerce</h1>
+
+  <!-- Sign Up / Sign In -->
+  <div class="auth-section">
+    <h2>Sign Up</h2>
+    <input type="text" id="signupUsername" placeholder="Username">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button id="signupBtn">Sign Up</button>
+
+    <h2>Sign In</h2>
+    <input type="text" id="signinUsername" placeholder="Username">
+    <input type="password" id="signinPassword" placeholder="Password">
+    <button id="signinBtn">Sign In</button>
+  </div>
+
+  <!-- Products -->
+  <div class="products">
+    <h2>Products</h2>
+    <div id="productList"></div>
+  </div>
+
+  <!-- Rating -->
+  <div class="rating-section">
+    <h2>Rate a Product</h2>
+    <input type="text" id="rateProductId" placeholder="Product ID">
+    <input type="number" id="rateValue" placeholder="Rating (1-5)">
+    <button id="rateBtn">Rate</button>
+  </div>
+
+  <!-- Output -->
+  <div class="output">
+    <h2>Console</h2>
+    <pre id="consoleOutput">No actions yet...</pre>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
